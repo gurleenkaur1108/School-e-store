@@ -6,7 +6,6 @@ const mongoose = require("mongoose");
 const jwt = require("jsonwebtoken");
 const cookieParser = require("cookie-parser");
 const config = require("./config");
-const { referrerPolicy } = require("helmet");
 const app = express();
 const port = 4000;
 
