@@ -1,7 +1,8 @@
 export const imageApply = {
   margin: "auto",
   height: "400px",
-  width: "500px",
+  width: "80%",
+  marginBottom:"80px"
 };
 export const signupComp = {
   textAlign: "center",
