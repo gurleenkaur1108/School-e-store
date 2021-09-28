@@ -4,6 +4,7 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import { useEffect,useState } from "react";
 import "./styles.css";
+import Block from "../Images/block.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Tag from "./tags";
 function Feature2() {
@@ -40,7 +41,7 @@ function Feature2() {
   <Col style={{display:"flex",justifyContent:"space-around"}} lg={6} md={6} sm={6} xs={6}>
   <Card className="cardDesign" style={{marginTop:"30px",textAlign:"center"}}>
   <Card.Body>
-  <img className="feature_img" src="https://s3-alpha-sig.figma.com/img/d5fe/343e/cd734cce02139c5f846379fe78f1cae3?Expires=1631491200&Signature=fsE~DXy7SXBN-kUDHBbJFnPTE0XMceOuCqIEXYuo4n1wpxNMk3o6GZbBkU67BKeeiYl-B0Jz01zqZRFp~C-jQvrIAigdMAtLXZ35cxfdcmI93ZXa3B9Boxgdt~bZR05POdPPMFxnaWbugGCxpeh7iDkOln5RX7xJ0adh9bHU1YMf9h4YxvYRUpAQlb8R3o4OBX0uS8k33NVtc6jFhas8QEVJDgd2vbNeiaIr-nazGQtDF097Wxez2OThzEWSuI6184~zAZIl5xRhXQPqzt4mqyi-vCVkw7CrgOwiDL3sqqrjwNEqhZfKm5RAqIqGwBHbPm0IYet3od~nU9bKyEHdiw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" />
+  <img className="feature_img" src={Block} />
     <Card.Title className="cardTit">User friendly</Card.Title>
     <Card.Text style={{paddingLeft:"5px"}}>
     Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et sed nam sem tell us erat.
@@ -51,7 +52,7 @@ function Feature2() {
   <Col style={{display:"flex",justifyContent:"space-around"}} lg={6} md={6} sm={6} xs={6}>
   <Card className="cardDesign" style={{marginTop:"30px",textAlign:"center"}}>
   <Card.Body>
-  <img className="feature_img" src="https://s3-alpha-sig.figma.com/img/d5fe/343e/cd734cce02139c5f846379fe78f1cae3?Expires=1631491200&Signature=fsE~DXy7SXBN-kUDHBbJFnPTE0XMceOuCqIEXYuo4n1wpxNMk3o6GZbBkU67BKeeiYl-B0Jz01zqZRFp~C-jQvrIAigdMAtLXZ35cxfdcmI93ZXa3B9Boxgdt~bZR05POdPPMFxnaWbugGCxpeh7iDkOln5RX7xJ0adh9bHU1YMf9h4YxvYRUpAQlb8R3o4OBX0uS8k33NVtc6jFhas8QEVJDgd2vbNeiaIr-nazGQtDF097Wxez2OThzEWSuI6184~zAZIl5xRhXQPqzt4mqyi-vCVkw7CrgOwiDL3sqqrjwNEqhZfKm5RAqIqGwBHbPm0IYet3od~nU9bKyEHdiw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" />
+  <img className="feature_img" src={Block} />
     <Card.Title className="cardTit">User friendly</Card.Title>
     <Card.Text style={{paddingLeft:"5px"}}>
     Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et sed nam sem tell us erat.
@@ -62,8 +63,8 @@ function Feature2() {
   <Col style={{display:"flex",justifyContent:"space-around"}} lg={6} md={6} sm={6} xs={6}>
   <Card className="cardDesign" style={{marginTop:"30px",textAlign:"center"}}>
   <Card.Body>
-  <img className="feature_img" src="https://s3-alpha-sig.figma.com/img/d5fe/343e/cd734cce02139c5f846379fe78f1cae3?Expires=1631491200&Signature=fsE~DXy7SXBN-kUDHBbJFnPTE0XMceOuCqIEXYuo4n1wpxNMk3o6GZbBkU67BKeeiYl-B0Jz01zqZRFp~C-jQvrIAigdMAtLXZ35cxfdcmI93ZXa3B9Boxgdt~bZR05POdPPMFxnaWbugGCxpeh7iDkOln5RX7xJ0adh9bHU1YMf9h4YxvYRUpAQlb8R3o4OBX0uS8k33NVtc6jFhas8QEVJDgd2vbNeiaIr-nazGQtDF097Wxez2OThzEWSuI6184~zAZIl5xRhXQPqzt4mqyi-vCVkw7CrgOwiDL3sqqrjwNEqhZfKm5RAqIqGwBHbPm0IYet3od~nU9bKyEHdiw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" />
-    <Card.Title className="cardTit">User friendly</Card.Title>
+  <img className="feature_img" src={Block} />
+      <Card.Title className="cardTit">User friendly</Card.Title>
     <Card.Text style={{paddingLeft:"5px"}}>
     Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et sed nam sem tell us erat.
     </Card.Text>
@@ -73,7 +74,7 @@ function Feature2() {
   <Col style={{display:"flex",justifyContent:"space-around"}} lg={6} md={6} sm={6} xs={6}>
   <Card className="cardDesign" style={{marginTop:"30px",textAlign:"center"}}>
   <Card.Body>
-  <img className="feature_img" src="https://s3-alpha-sig.figma.com/img/d5fe/343e/cd734cce02139c5f846379fe78f1cae3?Expires=1631491200&Signature=fsE~DXy7SXBN-kUDHBbJFnPTE0XMceOuCqIEXYuo4n1wpxNMk3o6GZbBkU67BKeeiYl-B0Jz01zqZRFp~C-jQvrIAigdMAtLXZ35cxfdcmI93ZXa3B9Boxgdt~bZR05POdPPMFxnaWbugGCxpeh7iDkOln5RX7xJ0adh9bHU1YMf9h4YxvYRUpAQlb8R3o4OBX0uS8k33NVtc6jFhas8QEVJDgd2vbNeiaIr-nazGQtDF097Wxez2OThzEWSuI6184~zAZIl5xRhXQPqzt4mqyi-vCVkw7CrgOwiDL3sqqrjwNEqhZfKm5RAqIqGwBHbPm0IYet3od~nU9bKyEHdiw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"/>
+  <img className="feature_img" src={Block} />
     <Card.Title className="cardTit">User friendly</Card.Title>
     <Card.Text style={{paddingLeft:"5px"}}>
     Lorem ipsum dolor amet, consectetur adipiscing elit. Mattis et sed nam sem tell us erat.

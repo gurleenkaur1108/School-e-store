@@ -3,7 +3,7 @@ import Intro from "./Intro";
 import "./styles.css";
 import Feature1 from "./feature1";
 import Feature2 from "./feature2";
-import MyCaraousel from "./Caraousel";
+import FAQs from "./FAQs";
 import About_land from "../Images/About_land.png";
 import Footer from "./Footer";
 function About()
@@ -14,7 +14,7 @@ function About()
     <Intro/>
     <Feature1/>
     <Feature2/>
-    <MyCaraousel/>
+    <FAQs/>
     <Footer/>
   </div>)
 }
