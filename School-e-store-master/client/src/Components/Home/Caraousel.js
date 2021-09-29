@@ -6,7 +6,7 @@ function MyCaraousel()
   return(<Carousel>
     <Carousel.Item>
       <img
-        className="d-block w-100 CaraouselDesign"
+        className="d-block w-100 CaraouselDesign_home"
         src={Home_land}
         alt="First slide"
       />
@@ -17,7 +17,7 @@ function MyCaraousel()
     </Carousel.Item>
     {/* <Carousel.Item>
       <img
-        className="d-block w-100 CaraouselDesign"
+        className="d-block w-100 CaraouselDesign_home"
         src="https://image.shutterstock.com/image-vector/vector-illustration-kids-their-parents-260nw-304554152.jpg"
         alt="Second slide"
       />

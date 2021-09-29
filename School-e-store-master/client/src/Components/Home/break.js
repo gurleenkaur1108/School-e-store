@@ -1,9 +1,9 @@
 import "./style1.css";  
 function Break(params) {
     return(<div style={{marginTop:"25px",marginBottom:"20px"}}>
-<div class="line"></div>
-<div className="lineTitle">{params.title}</div>
-<div class="line"></div>
+<div className="line_home"></div>
+<div className="lineTitle_home">{params.title}</div>
+<div className="line_home"></div>
 </div>);
 }
 export default Break;
