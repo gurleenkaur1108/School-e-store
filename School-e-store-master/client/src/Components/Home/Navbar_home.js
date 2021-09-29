@@ -7,7 +7,8 @@ import { Container} from '@material-ui/core';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Button from 'react-bootstrap/Button';
-import "./styles.css";  
+import "./style1.css";
+import Logo from "../Images/logo.png";
 function MyNavbar()
 {
   const[winWidth,setWidth]=useState(window.innerWidth);
@@ -20,7 +21,7 @@ function MyNavbar()
 return (<Navbar expand="lg" className="colorNav">
 <Container>
 {(winWidth>991)&&(<div className="myToggle">  
-  <img src="#" className="Imagestyle"/>
+  <img src={Logo} className="Imagestyle"/>
   <input type="text" className="Inputstyle" onFocus={(e) => e.target.placeholder = ""} onBlur={(e) => e.target.placeholder = "Search School-e-Store..."} placeholder="Search School-e-Store..."></input>
   <i class="fa fa-search" className="symbol"></i>
     <Nav className="me-auto">

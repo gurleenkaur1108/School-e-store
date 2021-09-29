@@ -1,4 +1,4 @@
-import Navbar from "./Navbar";
+import Navbar_home from "./Navbar_home";
 import Feature from "./features";
 import School from "./School";
 import MyCaraousel from "./Caraousel";
@@ -10,7 +10,7 @@ import Store_For_Schools from "./Store_For_Schools";
 function Home() {
   return (
     <div>
-      <Navbar />
+      <Navbar_home />
       <Feature />
       <MyCaraousel />
       <div style={{ textAlign: "center",paddingTop:"15px",paddingBottom:"15px" }}><h3> Trending Schools Near Me </h3></div>

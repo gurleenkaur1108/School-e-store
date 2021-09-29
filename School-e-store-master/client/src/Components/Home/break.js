@@ -1,4 +1,4 @@
-import "./styles.css"
+import "./style1.css";  
 function Break(params) {
     return(<div style={{marginTop:"25px",marginBottom:"20px"}}>
 <div class="line"></div>
